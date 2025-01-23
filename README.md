@@ -38,10 +38,9 @@ This Python script connects to the Geoplace DataVIA API and retrieves street dat
 ## Troubleshooting
 
 - Error 403: Forbidden: Check with Geoplace to ensure your API account is correctly set up.
-- SSL Error: "error:ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)" - Check with your IT team to ensure the Geoplace API is not restricted via firewall, etc.
+- SSL Error: "error:ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)" - Check with your IT team to ensure the Geoplace API is not restricted via Proxy/Firewall, etc.
 - SSL/TLS Error: "ssl.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1020)" - This is related to TLS authentication. Check with your IT team if TLS is enabled, and/or ensure your TLS and SSL versions for Python are up to date.
 - Other common API errors and resolutions can be located in the API Documentation here: https://datavia.geoplace.co.uk/
-- Further information on DataVIA can be found here: https://www.geoplace.co.uk/addresses-streets/street-data-and-services/datavia-api
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -54,7 +53,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Open a pull request.
 
 ## Acknowledgements
-Geoplace DataVIA API documentation
+- Geoplace DataVIA API documentation, and Support team.
+- Further information on DataVIA can be found here: https://www.geoplace.co.uk/addresses-streets/street-data-and-services/datavia-api
 
 ## Contact
 For any questions or suggestions, please open an issue or contact me at kevin.ferguson@durham.gov.uk or kevinferguson@hotmail.co.uk
