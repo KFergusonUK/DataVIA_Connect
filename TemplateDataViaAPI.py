@@ -5,19 +5,13 @@ import ssl
 ## UID AND PASSWORD CAN BE HARD CODED, SHOULD YOU BE SO INCLINED.
 ## USRN_IN CAN BE AMENDED TO RECIEVE INPUT FROM ELSEWHERE.
 
-## SOME OF THE ERRORS I ENCOUNTERED, AND HOW I RESOLVED THEM:
-## ERROR 403: FORBIDDEN -- CHECK WITH GEOPLACE YOUR API ACCOUNT IS CORRECTLY SETUP. 
-## SSL ERROR: "error:ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)" -- CHECK WITH YOUR IT TEAM THE GEOPLACE API IS NOT RESTRICTED VIA FIREWALL, ETC.
-## SSL/TLS ERROR: "ssl.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1020)" -- THIS IS RELATED TO TLS AUTHENTICATION, CHECK WITH YOUR IT TEAM IF TLS IS ENABLED, AND/OR YOUR TLS AND SSL VERSIONS FOR PYTHON ARE UP TO DATE.
-
-#Username and Password input:
+#Username, Password and USRN input from user:
 USERNAME = input("Please input your username: ")
 PASSWORD = input("Please input your password: ")
 USRN_IN = input("Which USRN would you like to query?: ")
 
 # Set Base Geoplace API URL:
 BASE_URL = 'www.datavia.geoplace.co.uk'
-
 
 def get_street_data(usrn):
     context = ssl.create_default_context()  # Use default SSL context, for Basic login.
