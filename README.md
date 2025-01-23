@@ -34,7 +34,7 @@ Alternatively, download the .py file and double click.
 
 - Error 403: Forbidden: Check with Geoplace to ensure your API account is correctly set up.
 - SSL Error: "error:ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)" - Check with your IT team to ensure the Geoplace API is not restricted via Proxy/Firewall, etc.
-- SSL/TLS Error: "ssl.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1020)" - This is related to TLS authentication. Check with your IT team if TLS is enabled, and/or ensure your TLS and SSL versions for Python are up to date.
+- SSL/TLS Error: "ssl.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1020)" - This can be related to TLS authentication. Check with your IT team if TLS is enabled on the device you are running the script from, and/or ensure your TLS and SSL versions for Python are up to date.
 - Other common API errors and resolutions can be located in the API Documentation here: https://datavia.geoplace.co.uk/
 
 ## License
