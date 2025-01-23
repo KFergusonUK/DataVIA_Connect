@@ -53,8 +53,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Open a pull request.
 
 ## Acknowledgements
-- Geoplace DataVIA API documentation, and Support team.
-- Further information on DataVIA can be found here: https://www.geoplace.co.uk/addresses-streets/street-data-and-services/datavia-api
+Geoplace DataVIA API documentation, and Support team.
 
 ## Contact
-For any questions or suggestions, please open an issue or contact me at kevin.ferguson@durham.gov.uk or kevinferguson@hotmail.co.uk
+- For any questions or suggestions regarding this Python script, please open an issue or contact me at kevin.ferguson@durham.gov.uk or kevinferguson@hotmail.co.uk
+- Further information on DataVIA can be found here: https://www.geoplace.co.uk/addresses-streets/street-data-and-services/datavia-api
