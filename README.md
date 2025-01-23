@@ -1,6 +1,7 @@
 # DataVIA_Connect
 
 This Python script connects to the Geoplace DataVIA API and retrieves street data for a specified USRN (Unique Street Reference Number) using a Basic connection to the Geoplace DataVIA service.
+
 Could be used as a basis for returning USRN details from Geoplace for other projects.
 
 ## Features
