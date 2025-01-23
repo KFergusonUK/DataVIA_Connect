@@ -23,17 +23,12 @@ This Python script connects to the Geoplace DataVIA API and retrieves street dat
     ```bash
     cd DataVIA_Connect
     ```
+Alternatively, download the .py file and double click.
 
 ## Usage
 
-1. Install the required dependencies:
-    ```bash
-    pip install requests
-    ```
-2. Update the script with your Geoplace DataVIA API credentials.
-3. Run the script:
-    ```bash
-    python sc
+1. Gather your Geoplace DataVIA API credentials.
+2. Run the script
 
 ## Troubleshooting
 
