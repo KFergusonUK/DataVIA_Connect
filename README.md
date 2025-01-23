@@ -44,11 +44,11 @@ This Python script connects to the Geoplace DataVIA API and retrieves street dat
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contributing
-Fork the repository.
-Create your feature branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
+- Fork the repository.
+- Create your feature branch (git checkout -b feature/your-feature).
+- Commit your changes (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature/your-feature).
+- Open a pull request.
 
 ## Acknowledgements
 Geoplace DataVIA API documentation
